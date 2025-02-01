@@ -29,25 +29,24 @@
     {
       "name": "API Reference",
       "url": "api-reference"
-    }
-  ],
+    },
     {
       "group": "About me",
       "pages": [
-        "about-me/documentation",
+        "about-me/documentation"
       ]
     },
     {
       "group": "Essentials",
       "pages": [
-        "essentials/markdown",
+        "about-me/documentation",
         "essentials/code",
         "essentials/images",
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]
-    },
+    }
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
