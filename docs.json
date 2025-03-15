@@ -1,0 +1,74 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Your Project Name",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "introduction",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "API Components",
+        "pages": [
+          "api-playground/overview",
+          "api-playground/configuration"
+        ]
+      },
+      {
+        "group": "Settings",
+        "pages": [
+          "settings/global",
+          "settings/page"
+        ]
+      },
+      {
+        "group": "Analytics",
+        "pages": [
+          "analytics/posthog"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@yourdomain.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://yourdomain.com/dashboard"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/yourusername",
+      "slack": "https://yourdomain.com/community",
+      "x": "https://x.com/yourusername"
+    }
+  },
+  "integrations": {
+    "intercom": {
+      "appId": "APP_ID"
+    },
+    "frontchat": {
+      "snippetId": "CHAT_ID"
+    }
+  }
+}
