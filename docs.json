@@ -14,9 +14,9 @@
       ],
     "groups": [
       {
-        "group": "About me",
+        "group": "Work experience",
         "pages": [
-          "about-me/documentation",
+          "work-experience/documentation",
           "welcome"
         ]
       },
