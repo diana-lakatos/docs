@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Diana Lakatos",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373"
+    "primary": "#384D9D",
+    "light": "#5E7CE2",
+    "dark": "#1E2A4A"
   },
   "favicon": "/favicon.svg",
   "navigation": {
