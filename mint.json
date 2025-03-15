@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Diana Lakatos",
+  "name": "Your Project Name",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -18,39 +18,38 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@yourdomain.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://yourdomain.com/dashboard"
   },
-  "tabs": [
+  "navigation": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "group": "Getting Started",
+      "pages": ["introduction", "quickstart"]
     },
     {
-      "group": "About me",
-      "pages": [
-        "about-me/documentation"
-      ]
+      "group": "API Components",
+      "pages": ["api-playground/overview", "api-playground/configuration"]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "about-me/documentation",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
+      "group": "Settings",
+      "pages": ["settings/global", "settings/page"]
+    },
+    {
+      "group": "Analytics",
+      "pages": ["analytics/posthog"]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "github": "https://github.com/yourusername",
+    "slack": "https://yourdomain.com/community",
+    "x": "https://x.com/yourusername"
+  },
+  "integrations": {
+    "intercom": "APP_ID",
+    "frontchat": "CHAT_ID"
   }
 }
