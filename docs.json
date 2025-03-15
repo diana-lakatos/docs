@@ -14,9 +14,9 @@
       ],
     "groups": [
       {
-        "group": "Getting Started",
+        "group": "About me",
         "pages": [
-          "quickstart",
+          "about-me/documentation",
           "welcome"
         ]
       },
