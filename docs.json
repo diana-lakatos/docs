@@ -63,6 +63,9 @@
       "x": "https://x.com/yourusername"
     }
   },
+  "assets": [
+    "/assets/style.css"
+  ],
   "integrations": {
     "intercom": {
       "appId": "APP_ID"
